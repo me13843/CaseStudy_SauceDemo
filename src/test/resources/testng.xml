@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo Automation Suite" verbose="1" parallel="false">
+    <test name="SauceDemo Tests">
+        <classes>
+            <!-- Specify the Test Runner class that integrates with Cucumber -->
+            <class name="TestRunner.TestRunner" />
+        </classes>
+    </test>
+</suite>
